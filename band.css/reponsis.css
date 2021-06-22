@@ -1,0 +1,96 @@
+/*pc*/
+@media(min-width: 1024px){
+
+}
+/*Tablet & Mobile*/
+@media (max-width: 1023px) {
+    #wairap .suprap a{
+        padding: 5px 12px;
+    }
+    .places-buy-btn{
+        padding: 15px 16px;
+    }
+    .form-submit-btn{
+        font-size: 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info{
+        line-height: 2;
+    } 
+    #footer .social-list{
+        font-size: 48px;
+        
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/*tablet*/
+@media(min-width: 740px) and (max-width: 1023px) {
+    
+}
+/*Mobile*/
+@media(max-width: 739px){
+    .s-col-full,
+    .s-full-width{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #wairap{
+        display: block;
+    }
+
+    #wairap > li{
+        display: block;
+    }
+
+    #wairap > li:first-child{
+        display: inline-block;
+    } 
+
+    #wairap li a{
+        padding: 1px 24px;
+    }
+
+    #wairap .suprap{
+        position: initial;
+        background-color: #333;
+    }
+
+    #wairap .suprap a{
+        color: #fff;
+        padding: 0 41px;
+    }
+
+    #content .img-name{
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+}
+    
